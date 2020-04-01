@@ -16,7 +16,8 @@ I didn't save the model because it would not take any time even if you train it 
 
 MODEL USED :
            
-           LSTMs.
+           LSTMs => loss: 0.0353 - accuracy: 0.9880 - val_loss: 0.0287 - val_accuracy: 0.9902
+           
 
 ACCURACY : 
 

@@ -11,16 +11,16 @@ There are 3 datasets from which 1 is for training as usual and 2 are for testing
 
 I tested model on both the testing datasets and the results were pretty good.
 
-I didn't save the model because it would not take any time even if you train it by yourself , it would hardly take 10 seconds.
+I have added pretrained model with 15 epochs if you want to train it for more epochs you can do it yourself but try to train it on GPU otherwise it will take time , consider using Google Colab.
 
 
 MODEL USED :
            
-           LSTMs => loss: 0.0353 - accuracy: 0.9880 - val_loss: 0.0287 - val_accuracy: 0.9902
+           LSTMs => loss: 0.0308 - accuracy: 0.9882 - val_loss: 0.0362 - val_accuracy: 0.9883
            
 
 ACCURACY : 
 
-           1st dataset ----->  98.83% (having size of 2665 inputs)
+           1st dataset ----->  92.94% (having size of 2665 inputs)
 
-           2nd dataset ----->  98.01% (having size of 9752 inputs)
+           2nd dataset ----->  95.89% (having size of 9752 inputs)
